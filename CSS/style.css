@@ -123,8 +123,17 @@
 .border-radius-10{
     border-radius: 10px;
 }
-.justify-space-evenly{
-    justify-content: space-evenly;
+.justify-space-between{
+    justify-content: space-between;
+}
+.gap-20{
+    gap: 15px;
+}
+.padding-left-15{
+    padding-left: 15px;
+}
+.padding-right-15{
+    padding-right:15px ;
 }
 .top-left-corner-red{
     position: absolute;
