@@ -331,3 +331,23 @@
     color: white;
     background-color: #303B59;
 }
+@media only screen and (min-width: 640px){
+    .ds\:flex-direction{
+        flex-direction: row;
+    }
+    .ds\:justify-content{
+        justify-content: center;
+    }
+    .ds\:flex{
+        display: flex;
+    }
+    .ds\:max-width{
+        max-width: 600px;
+    }
+    .ds\:width{
+        width: 100%;
+    }
+    .ds\:height-450{
+        height: 450px;
+    }
+}
