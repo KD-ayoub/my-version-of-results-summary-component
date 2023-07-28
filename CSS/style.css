@@ -7,6 +7,10 @@
     color: hsl(252, 100%, 67%);
     color: hsl(241, 81%, 54%);
     color: hsl(221, 100%, 96%);
+    color: hsl(0, 100%, 67%);
+    color:  hsl(39, 100%, 56%);
+    color: hsl(166, 100%, 37%);
+    color: hsl(234, 85%, 45%);
 }
 .width-375{
     width: 375px;
@@ -87,7 +91,7 @@
     padding: 0px 60px;
 }
 .border-bottom-radius{
-    border-radius: 0 0 25px 25px;
+    border-radius: 0 0 30px 30px;
 }
 .height-100vh{
     height: 100vh;
@@ -97,4 +101,57 @@
 }
 .max-width-375{
     max-width: 375px;
+}
+.padding-left{
+    padding-left: 25px;
+}
+.width-200{
+    width: 200px;
+}
+.width-350{
+    width: 300px;
+}
+.height-45{
+    height: 45px;
+}
+.bg-reaction{
+    background-color: hsla(0, 100%, 67%,0.1);
+}
+.top-left-corner-red{
+    position: absolute;
+    border-top-left-radius: 10px;
+    border-top: 2px solid hsla(0, 100%, 67%, 0.2);
+    border-left: 2px solid hsla(0, 100%, 67%, 0.2);
+    width: 10px;
+    height: 10px;
+}
+.top-right-corner-red{
+    position: absolute;
+    border-top-right-radius: 10px;
+    border-top: 2px solid hsla(0, 100%, 67%, 0.2);
+    border-right: 2px solid hsla(0, 100%, 67%, 0.2);
+    width: 10px;
+    height: 10px;
+    top: 0;
+    right: 0;
+}
+.bottom-right-corner-red{
+    position: absolute;
+    border-bottom-right-radius: 10px;
+    border-bottom: 2px solid hsla(0, 100%, 67%, 0.2);
+    border-right: 2px solid hsla(0, 100%, 67%, 0.2);
+    width: 10px;
+    height: 10px;
+    bottom: 0;
+    right: 0;
+}
+.bottom-left-corner-red{
+    position: absolute;
+    border-bottom-left-radius: 10px;
+    border-bottom: 2px solid hsla(0, 100%, 67%, 0.2);
+    border-left: 2px solid hsla(0, 100%, 67%, 0.2);
+    width: 10px;
+    height: 10px;
+    bottom: 0;
+    left: 0;
 }
