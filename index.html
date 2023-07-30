@@ -1,105 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>
-            Result summary
-        </title>
-        <link rel="stylesheet" href="./CSS/style.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
-    </head>
-    <body class="height-100vh flex justify-center align-items">
-        <section class="bg-color-white width-full max-width-375 ds:max-width ds:flex ds:flex-direction ds:box-shadow ds:border-radius-trbr">
-            <!--background -->
-            <div class="height-300 ds:height bg-color-blue flex  ds:gap flex-direction align-items ds:border-top-radius border-bottom-radius ds:width">
-                <!--Div head text-->
-                <div class="">
-                    <h4 class="font-family font-size-18 text-color-lavender font-weight">Your Result</h4>
-                </div>
-                <!-- circle -->
-                <div class="width-120 height-120 ds:width-140 ds:height-140 bg-color-violet-blue 
+
+<head>
+    <title>
+        Result summary
+    </title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body class="height-100vh flex justify-center align-items">
+    <section
+        class="bg-color-white width-full max-width-375 ds:max-width ds:flex ds:flex-direction ds:box-shadow ds:border-radius-trbr">
+        <!--background -->
+        <div
+            class="height-300 ds:height bg-color-blue flex  ds:gap flex-direction align-items ds:border-top-radius border-bottom-radius ds:width">
+            <!--Div head text-->
+            <div class="">
+                <h4 class="font-family font-size-18 text-color-lavender font-weight">Your Result</h4>
+            </div>
+            <!-- circle -->
+            <div class="width-120 height-120 ds:width-140 ds:height-140 bg-color-violet-blue 
                     border-radius flex flex-direction align-items justify-center">
-                    <p class="font-family text-color-white text-center font-size-50 margin-0">76</p>
-                    <p class="margin-0 font-family font-size-14 text-color-violet-blue">of 100</p>
-                </div>
-                <div class="flex flex-direction align-items ds:gap-10">
-                    <p class="margin-top-10 margin-bottom-5 font-family font-size-20 text-color-white text-center">Great</p>
-                    <p class="margin-0 text-center font-family font-size-14 
-                        text-color-lavender font-weight padding-lr-60 ds:padding-lr-50">You scored higher than 65% of the people who have taken these tests.</p>
+                <p class="font-family text-color-white text-center font-size-50 margin-0">76</p>
+                <p class="margin-0 font-family font-size-14 text-color-violet-blue">of 100</p>
+            </div>
+            <div class="flex flex-direction align-items ds:gap-10">
+                <p class="margin-top-10 margin-bottom-5 font-family font-size-20 text-color-white text-center">Great</p>
+                <p class="margin-0 text-center font-family font-size-14 
+                        text-color-lavender font-weight padding-lr-60 ds:padding-lr-50">You scored higher than 65% of
+                    the people who have taken these tests.</p>
+            </div>
+        </div>
+        <!-- summary -->
+        <div class="ds:width ds:height ">
+            <div>
+                <p class="font-family padding-left text-color-summary font-weight-600">Summary</p>
+            </div>
+            <div style="position: relative; margin: 15px 20px;">
+                <!--Reaction-->
+                <div class="top-left-corner-red"></div>
+                <div class="top-right-corner-red"></div>
+                <div class="bottom-right-corner-red"></div>
+                <div class="bottom-left-corner-red"></div>
+
+                <div class="height-45 bg-reaction border-radius-10 flex justify-space-between align-items">
+                    <div class="flex gap-15 padding-left-15">
+                        <img src="assets/images/icon-reaction.svg" title="flash" />
+                        <p class="font-family text-color-red">Reaction</p>
+                    </div>
+                    <p class="padding-right-15 font-family font-weight-800 text-color-dark-grey">80<span
+                            class="font-family font-weight-500 text-color-light-grey"> / 100</span></p>
                 </div>
             </div>
-            <!-- summary -->
-            <div class="ds:width ds:height ">
-                <div>
-                    <p class="font-family padding-left text-color-summary font-weight-600">Summary</p>
-                </div>
-                <div style="position: relative; margin: 15px 20px;">
-                    <!--Reaction-->
-                    <div class="top-left-corner-red"></div>
-                    <div class="top-right-corner-red"></div>
-                    <div class="bottom-right-corner-red"></div>
-                    <div class="bottom-left-corner-red"></div>
+            <div style="position: relative; margin: 15px 20px;">
+                <!--Memory-->
+                <div class="top-left-corner-yellow"></div>
+                <div class="top-right-corner-yellow"></div>
+                <div class="bottom-right-corner-yellow"></div>
+                <div class="bottom-left-corner-yellow"></div>
 
-                    <div class="height-45 bg-reaction border-radius-10 flex justify-space-between align-items">
-                        <div class="flex gap-15 padding-left-15">
-                            <img src="assets/images/icon-reaction.svg" title="flash"/>
-                            <p class="font-family text-color-red">Reaction</p>
-                        </div>
-                        <p class="padding-right-15 font-family font-weight-800 text-color-dark-grey">80<span class="font-family font-weight-500 text-color-light-grey"> / 100</span></p>
+                <div class="height-45 bg-memory border-radius-10 flex justify-space-between align-items">
+                    <div class="flex gap-15 padding-left-15">
+                        <img src="assets/images/icon-memory.svg" title="flash" />
+                        <p class="font-family text-color-yellow">Memory</p>
                     </div>
-                </div>
-                <div style="position: relative; margin: 15px 20px;">
-                    <!--Memory-->
-                    <div class="top-left-corner-yellow"></div>
-                    <div class="top-right-corner-yellow"></div>
-                    <div class="bottom-right-corner-yellow"></div>
-                    <div class="bottom-left-corner-yellow"></div>
-
-                    <div class="height-45 bg-memory border-radius-10 flex justify-space-between align-items">
-                        <div class="flex gap-15 padding-left-15">
-                            <img src="assets/images/icon-memory.svg" title="flash"/>
-                            <p class="font-family text-color-yellow">Memory</p>
-                        </div>
-                        <p class="padding-right-15 font-family font-weight-800 text-color-dark-grey">92<span class="font-family font-weight-500 text-color-light-grey"> / 100</span></p>
-                    </div>
-                </div>
-                <div style="position: relative; margin: 15px 20px;">
-                    <!--Verbal-->
-                    <div class="top-left-corner-green"></div>
-                    <div class="top-right-corner-green"></div>
-                    <div class="bottom-right-corner-green"></div>
-                    <div class="bottom-left-corner-green"></div>
-
-                    <div class="height-45 bg-verbal border-radius-10 flex justify-space-between align-items">
-                        <div class="flex gap-15 padding-left-15">
-                            <img src="assets/images/icon-verbal.svg" title="flash"/>
-                            <p class="font-family text-color-green">Verbal</p>
-                        </div>
-                        <p class="padding-right-15 font-family font-weight-800 text-color-dark-grey">61<span class="font-family font-weight-500 text-color-light-grey"> / 100</span></p>
-                    </div>
-                </div>
-                <div style="position: relative; margin: 15px 20px;">
-                    <!--Visual-->
-                    <div class="top-left-corner-blue"></div>
-                    <div class="top-right-corner-blue"></div>
-                    <div class="bottom-right-corner-blue"></div>
-                    <div class="bottom-left-corner-blue"></div>
-
-                    <div class="height-45 bg-visual border-radius-10 flex justify-space-between align-items">
-                        <div class="flex gap-15 padding-left-15">
-                            <img src="assets/images/icon-visual.svg" title="flash"/>
-                            <p class="font-family text-color-blue">Reaction</p>
-                        </div>
-                        <p class="padding-right-15 font-family font-weight-800 text-color-dark-grey">72<span class="font-family font-weight-500 text-color-light-grey"> / 100</span></p>
-                    </div>
-                </div>
-                <div class="flex justify-center">
-                    <button class="button-style font-family">Continue</button>
+                    <p class="padding-right-15 font-family font-weight-800 text-color-dark-grey">92<span
+                            class="font-family font-weight-500 text-color-light-grey"> / 100</span></p>
                 </div>
             </div>
-        </section>
-    </body>
+            <div style="position: relative; margin: 15px 20px;">
+                <!--Verbal-->
+                <div class="top-left-corner-green"></div>
+                <div class="top-right-corner-green"></div>
+                <div class="bottom-right-corner-green"></div>
+                <div class="bottom-left-corner-green"></div>
+
+                <div class="height-45 bg-verbal border-radius-10 flex justify-space-between align-items">
+                    <div class="flex gap-15 padding-left-15">
+                        <img src="assets/images/icon-verbal.svg" title="flash" />
+                        <p class="font-family text-color-green">Verbal</p>
+                    </div>
+                    <p class="padding-right-15 font-family font-weight-800 text-color-dark-grey">61<span
+                            class="font-family font-weight-500 text-color-light-grey"> / 100</span></p>
+                </div>
+            </div>
+            <div style="position: relative; margin: 15px 20px;">
+                <!--Visual-->
+                <div class="top-left-corner-blue"></div>
+                <div class="top-right-corner-blue"></div>
+                <div class="bottom-right-corner-blue"></div>
+                <div class="bottom-left-corner-blue"></div>
+
+                <div class="height-45 bg-visual border-radius-10 flex justify-space-between align-items">
+                    <div class="flex gap-15 padding-left-15">
+                        <img src="assets/images/icon-visual.svg" title="flash" />
+                        <p class="font-family text-color-blue">Reaction</p>
+                    </div>
+                    <p class="padding-right-15 font-family font-weight-800 text-color-dark-grey">72<span
+                            class="font-family font-weight-500 text-color-light-grey"> / 100</span></p>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <button class="button-style font-family">Continue</button>
+            </div>
+        </div>
+    </section>
+</body>
+
 </html>
