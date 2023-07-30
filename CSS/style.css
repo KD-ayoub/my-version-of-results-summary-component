@@ -159,7 +159,7 @@
 .justify-space-between{
     justify-content: space-between;
 }
-.gap-20{
+.gap-15{
     gap: 15px;
 }
 .padding-left-15{
@@ -347,7 +347,33 @@
     .ds\:width{
         width: 100%;
     }
-    .ds\:height-450{
-        height: 450px;
+    .ds\:height{
+        height: 400px;
+    }
+    .ds\:gap{
+        gap: 15px;
+    }
+    .ds\:width-140{
+        width: 140px;
+    }
+    .ds\:height-140{
+        height: 140px;
+    }
+    .ds\:gap-10{
+        gap: 10px;
+    }
+    .ds\:padding-lr-50{
+        padding: 0px 50px;
+    }
+    .ds\:border-top-radius{
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+    .ds\:border-radius-trbr{
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    .ds\:box-shadow{
+        box-shadow: 8px 8px 10px hsla(241, 100%, 89%,0.4);;
     }
 }
